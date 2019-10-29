@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+</head>
+<body>
+<h1>Encuesta de Satisfacción del producto</h1>
+<form method="post" action="">
+<div class="codigoPostal">
+	<label for="cp">Codigo Postal</label>
+	<input type="number" name="cp" maxlength="5" placeholder="13640"/>
+</div>
+<div class="puntuaciones">
+	<label for="puntuacion">Puntue el producto del 1 al 5</label><br>
+	1<input type="radio" name="puntuacion" value="1"/>
+	2<input type="radio" name="puntuacion" value="2"/>
+	3<input type="radio" name="puntuacion" value="3"/>
+	4<input type="radio" name="puntuacion" value="4"/>
+	5<input type="radio" name="puntuacion" value="5"/>
+</div>
+<br>
+<div class="email">
+	<label for="email">Correo Electrónico</label>
+	<input type="mail" name="email" placeholder="example@gmail.com"/>
+</div>
+<br>
+<div class="puntosPositivos">
+	<label for="positivos">Puntos Positivos</label>
+	<textarea name="positivos"></textarea>
+</div>
+<br>
+<div class="puntosNegativos">
+	<label for="negativos">Puntos Negativos</label>
+	<textarea name="negativos"></textarea>
+</div>
+<br>
+
+<div class="caracteristicas">
+	<label for="caracteristicas">Elige una de las siguientes caracteristicas:</label>
+	<select>
+		<option>excelente</option>
+		<option>bueno</option>
+		<option>regular</option>
+		<option>pesimo</option>
+	</select>
+	<br>
+	<label>Excelente<input type="checkbox" name="excelente"/></label><br>
+	<label>Bueno<input type="checkbox" name="bueno"/></label><br>
+	<label>Malo<input type="checkbox" name="malo"/></label><br>
+	<label>Pesimo<input type="checkbox" name="pesimo"/></label><br>
+</div>
+
+<div>
+	<input type="submit" value="enviar"/>
+</div>
+
+</form>
+
+</body>
+</html>
