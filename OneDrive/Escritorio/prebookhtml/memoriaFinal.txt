@@ -1,0 +1,11 @@
+He creado una página web básica que está dirigida al cuidado de mascotas de usuarios que no pueden atenderlas mientras está trabajando.
+
+El html que he creado se divide en tres partes:
+	
+	Cabecera creado con la etiqueta header. En esta parte explico quienes somos y a quien se dirige nuestro servicio.
+	
+	El cuerpo creado con la etiqueta main. Aquí me encargo de explicar el precio de nuestro servicio.Expongo con una lista que haremos con la mascota mientras 
+	el dueño no está. Por último expongo también ciertos descuentos y bonos.
+	
+	El pie de pagina con la etiqueta footer. En esta parte me encargo de poner nuestros datos de contacto añadiendolos dentro de la etiqueta address. Y por otro
+	lado creo un formulario para que el usuario nos pueda ennviar sus datos de contacto.
