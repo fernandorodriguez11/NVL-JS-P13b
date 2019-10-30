@@ -1,0 +1,33 @@
+table{
+	border-collapse: collapse;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+th{
+	border-right: 1px solid black;
+	text-align:center;
+}
+td{
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+.descenso{
+	background-color: #CC1C1C;
+}
+
+.champions{
+	background-color: #3544FD;
+}
+
+.europa{
+	background-color: #9A3D08;
+}
+
+.clasiEuropa{
+	background-color: #F508E3;
+}
+
+.puntuacion{
+	background-color: #BFFF69;
+}
