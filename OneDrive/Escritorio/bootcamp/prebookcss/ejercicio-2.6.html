@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+[data-cantidad]{
+	color:yellow;
+}
+
+[data-color="aceite"]{
+	color:green;
+}
+
+[data-imagen]{
+	width:20%;
+}
+
+[data-comentarios]{
+
+	border-radius: 5px 5px 5px 5px;
+	width: 40%;
+	height: 150px;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Ingredientes de Tortilla de patatas</h1>
+<img src="https://www.recetasderechupete.com/wp-content/uploads/2016/08/Tortilla-de-patatas-525x360.jpg" data-imagen>
+<ol>
+	<li data-cantidad data-color="aceite">Aceite</li>
+	<li data-cantidad="1kg">Patatas</li>
+	<li data-cantidad="8">Huevos</li>
+	<li data-cantidad>Cebolla</li>
+	<li data-cantidad="alGusto">Sal</li>
+</ol>
+
+<form method="" action="">
+	<fieldset>
+		<legend>Dejanos tu opinión</legend>
+		<textarea data-comentarios></textarea><br>
+		<input type="submit" value="Enviar"/>
+	</fieldset>
+</form>
+
+</body>
+</html>
