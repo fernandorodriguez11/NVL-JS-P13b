@@ -1,0 +1,16 @@
+He creado un post compuestos de articulos sacados de noticias de futbol.
+
+La pagina esta compuesta por una cabecera un cuerpo y un pie de pagina.
+
+A la cabecera le he puesto un color de fondo negro y solo contiene un Titulo.
+
+El cuerpo está compuesto por 3 capas. La primera columna(capa) solo contiene un menú que al pinchar en ellas te lleva
+a los posts de los que está compuesto la columna central. El tercer post es un menú en el que aparecen los posts más visitados.
+
+
+La primera columna tiene un color de fondo azulado.
+La tercera columna tiene un color de fondo amarillento y el color del texto es azulado. He puesto unos symbolos para 
+representar la cantidad de visitas que tienen esos posts.
+
+He creado un pie de pagina compuesto por copyright, telefono y nombre. El pie de pagina he decidido que se mantenga en toda
+la página. Su color de fondo es gris.
