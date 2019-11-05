@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script>
+
+var cantidadPrimos = 50;
+
+function muestraXprimos(cantidadPrimos){
+
+	for (var j = 2; j <= cantidadPrimos; j++) {
+
+	if (primo(j)) {
+		//numerosPrimos.push(j);
+		alert(j+" primo");
+	}else{
+		alert(j+" no primo");
+	}
+  
+}
+
+}
+
+function primo(numero) {
+
+  for (var i = 2; i < numero; i++) {
+
+    if (numero % i === 0) {
+      return false;
+    }
+
+  }
+
+  return numero !== 1;
+}
+
+muestraXprimos(cantidadPrimos);
+
+</script>
+</head>
+<body>
+
+
+</body>
+
+</html>
