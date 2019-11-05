@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script>
+function pulsar(){
+	
+	var dias = "lunes,martes,miercoles,jueves,viernes,sabado,domingo";
+	var lugares = "Madrid.Sevilla.Barcelona.Valencia.Zaragoza.Bilbao.Donosti";
+	var dias_lugares = new Array();
+
+	var lista_dias = dias.split(",");
+    var lista_lugares = lugares.split(".");
+
+	for(var i = 0; i< days.length; i++){
+			
+		dias_lugares.push(lista_dias[i],lista_lugares[i]);
+	}
+
+	alert(dias_lugares);
+	console.log(dias_lugares);
+
+}
+</script>
+</head>
+<body>
+
+
+<button onClick="pulsar()">Pulse aquí</button>
+
+</body>
+
+</html>
