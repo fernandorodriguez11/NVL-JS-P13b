@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script>
+var pares = new Array();
+var impares = new Array();
+function pulsar(){
+	
+	for (var i = 1; i <= 50; i++){
+	
+		numeros_aleatorios = Math.floor((Math.random()*100)+1);
+		
+		comprueba_par(numeros_aleatorios);
+	
+	}
+	
+	alert(pares); console.log(pares);
+	alert(impares); console.log(impares);
+
+}
+
+function comprueba_par(numero){
+
+	if(numero % 2 == 0){
+			
+		pares.push(numeros_aleatorios);
+			
+	}else{
+		impares.push(numeros_aleatorios);
+	}
+
+}
+
+</script>
+</head>
+<body>
+
+
+<button onClick="pulsar()">Pulse aquí</button>
+
+</body>
+
+</html>
